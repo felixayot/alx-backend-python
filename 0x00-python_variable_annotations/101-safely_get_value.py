@@ -8,7 +8,7 @@ T = TypeVar('T')
 def safely_get_value(dct: Mapping, key: Any, default:
                      Union[T, None] = None) -> Union[Any, T]:
     """
-    Returns for a key in a given dictionary, dct,
+    Returns a queried key in a given dictionary, dct,
     otherwise, returns provided default.
     """
     if key in dct:
