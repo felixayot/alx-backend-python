@@ -3,3 +3,4 @@ This repository contains tasks for projects completed while learning Advanced Py
 The concepts include:
 - Python - Variable Annotations
 - Python - Async
+- Python - Async Comprehension
